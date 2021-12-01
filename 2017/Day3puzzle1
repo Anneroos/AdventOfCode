@@ -1,0 +1,47 @@
+#  1 + 4*n*(n+1)
+
+number = 312051
+
+
+n=0
+while 1+4*n*(n+1) < number:
+    n += 1
+n -= 1
+rightLowerCorner = 1 + 4*n*(n+1) # rightlowercorner of a square around 1, number is in next square
+rest = number - rightLowerCorner
+
+
+
+xcoord = n
+ycoord = n
+
+if(rest < 2*(n+1)):
+    ycoord -= rest
+    print('a')
+else:
+    print('b')
+    ycoord -= 2*(n+1)
+    rest -= 2*(n+1)
+    if rest < 2*(n+1):
+        xcoord -= rest
+        print('c')
+    else:
+        print('d')
+        xcoord -= 2*(n+1)
+        rest -= 2*(n+1)
+        if rest < 2*(n+1):
+            ycoord += rest
+            print('e')
+        else:
+            print('f')
+            ycoord += 2*(n+1)
+            rest -= 2*(n+1)
+            xcoord += rest
+
+
+print(xcoord, ycoord)
+print("Answer: " , (abs(xcoord)+abs(ycoord)))
+
+
+
+
