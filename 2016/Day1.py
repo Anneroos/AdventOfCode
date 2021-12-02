@@ -1,3 +1,4 @@
+#01-12-2021
 with open("input1.txt","r") as f:
     n=f.read().split(', ')
 
