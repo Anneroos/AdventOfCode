@@ -1,3 +1,4 @@
+# 6-12-2021
 with open("input6.txt","r") as f:
     lines = f.read().splitlines()
 def mostCommonCharacter(list, index):
