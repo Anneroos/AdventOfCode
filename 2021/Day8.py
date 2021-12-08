@@ -3,7 +3,7 @@ with open("input8.txt", "r") as f:
 
 
 def sortLetters(pattern):
-    return "".join(sorted(list(pattern)))
+    return "".join(sorted(pattern))
 
 def patternsToNumbers(inputpatterns):
     numbers = [""]*10 # We will fill such that numbers[i] contains the pattern the corresponds to it
@@ -34,8 +34,8 @@ totalOutput = 0 # for part 2
 for line in lines:
     patterns = line.split(" | ")[0].split()
     output = line.split(" | ")[1].split()
-    for combination in output:
-        if len(combination) in [2,3,4,7]:
+    for pattern in output:
+        if len(pattern) in [2,3,4,7]:
             nrEasyNumbers += 1
     orderedPatterns = patternsToNumbers(patterns) # array with the patterns in the order of the number the represent
     outputvalue = int("".join([str(orderedPatterns.index(sortLetters(o))) for o in output])) # use orderedPatterns to lookup the patterns in the output
