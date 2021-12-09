@@ -20,8 +20,6 @@ for i in range(len(cave)):
             # The "lowest" neighbor(/itself) doesn't need to be unique! (check lower right corner of my input)
             # But I will just choose the first one, and trust that it will eventually flow to 1 point...
             lowestNeighbor = sorted(neighbors, key=lambda n: cave[n[0]][n[1]])[0]
-            print([cave[n[0]][n[1]] for n in neighbors].count(cave[lowestNeighbor[0]][lowestNeighbor[1]]))
-            print(i,j,[(n, cave[n[0]][n[1]]) for n in neighbors])
             flowDirection[(i, j)] = (lowestNeighbor[0],lowestNeighbor[1])
 
 # Now follow the flow! Determine the final destination from each starting point
