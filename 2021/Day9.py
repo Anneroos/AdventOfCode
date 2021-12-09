@@ -5,30 +5,35 @@ m = len(cave)
 n = len(cave[0])
 flowDirection = {}
 
-def findNeighbors(point,minx, maxx, miny, maxy): # including the point itself
+# Function to find the neighbors of a point, including the points itself, within the boundaries of the cave
+def findNeighbors(point,minx, maxx, miny, maxy):
     neighbors = [point,[point[0]+1,point[1]],[point[0]-1,point[1]],[point[0],point[1]+1],[point[0],point[1]-1]]
     neighbors = [n for n in neighbors if n[0]>=minx and n[0] < maxx and n[1] >= miny and n[1]< maxy]
     return neighbors
 
-# First determin the lowest neighbor for each point
+# First determine the lowest neighbor for each point, and save that in the dictionairy flowDirection
 for i in range(len(cave)):
     for j in range(len(cave[0])):
         localValue = cave[i][j]
         if localValue != 9:
             neighbors = findNeighbors([i,j],0,m,0,n)
+            # The "lowest" neighbor(/itself) doesn't need to be unique! (check lower right corner of my input)
+            # But I will just choose the first one, and trust that it will eventually flow to 1 point...
             lowestNeighbor = sorted(neighbors, key=lambda n: cave[n[0]][n[1]])[0]
+            print([cave[n[0]][n[1]] for n in neighbors].count(cave[lowestNeighbor[0]][lowestNeighbor[1]]))
+            print(i,j,[(n, cave[n[0]][n[1]]) for n in neighbors])
             flowDirection[(i, j)] = (lowestNeighbor[0],lowestNeighbor[1])
 
-# Now follow the flow, and determine the final destination for each starting point
-# by ordering the points first, starting with the lowest numbers, I only have to do this once
+# Now follow the flow! Determine the final destination from each starting point
+# By re-ordering the locations first, starting with the lowest heights, we only have to loop once through the locations
 for key in sorted(flowDirection.keys(), key=lambda k: cave[k[0]][k[1]]):
     flowDirection[key] = flowDirection[flowDirection[key]]
 
-# Group the points in basins according to the lowest point they are connected with
-basins = set(flowDirection.values())
-sortedBasinSizes = sorted([list(flowDirection.values()).count(b) for b in basins], reverse=True)
-print(f"Part 1: The sum of the risk levels of all low points is {sum([cave[b[0]][b[1]] + 1 for b in basins])}.")
-print(f"Part 2: The product of the sizes of the three largest basins is {sortedBasinSizes[0]*sortedBasinSizes[1]*sortedBasinSizes[2]}.")
+lowPoints = set(flowDirection.values())
+print(f"Part 1: The sum of the risk levels of all low points is {sum([cave[lowPoint[0]][lowPoint[1]] + 1 for lowPoint in lowPoints])}.")
+
+basinSizes = sorted([list(flowDirection.values()).count(lowPoint) for lowPoint in lowPoints], reverse=True)
+print(f"Part 2: The product of the sizes of the three largest basins is {basinSizes[0]*basinSizes[1]*basinSizes[2]}.")
 
 
 
