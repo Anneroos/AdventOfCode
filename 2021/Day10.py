@@ -2,33 +2,33 @@ with open("input10.txt", "r") as f:
     lines = f.read().splitlines()
 
 def chunkChecker(string):
-    pendingBrackets = [] # Going to fill this with the opening brackets that are found, but not yet closed
-    openingBrackets = "([{<"
-    closingBrackets = ")]}>"
-    corruptedPoints = {")": 3, "]": 57, "}": 1197, ">": 25137}
-    incompletePoints = {")": 1, "]": 2, "}": 3, ">": 4}
-    # first check for corruptness
+    pendingBrackets = []
+    opens = "([{<"
+    closes = ")]}>"
+    pointsCor = {")": 3, "]": 57, "}": 1197, ">": 25137}
+    pointsIncom = {"(": 1, "[": 2, "{": 3, "<": 4} # Thanks Daniel for the idea to use the opening brackets
+
+    # Check corruptness
     for i in string:
-        if i in openingBrackets: # new opening bracket!
+        if i in opens:
             pendingBrackets.append(i)
-        elif i in closingBrackets:  # closing bracket, does it match?
-            if closingBrackets.find(i) == openingBrackets.find(pendingBrackets[-1]): # if it matches the last opening bracket
+        elif i in closes:
+            # closing bracket, does it match the last pending opening bracket?
+            if closes.find(i) == opens.find(pendingBrackets[-1]):
                 pendingBrackets.pop()
-            else: # it doesn't match the last opening bracket
-                return corruptedPoints[i], "corrupted"
-        else:
-            print("Unexpected character")
+            else:
+                return pointsCor[i], "corrupted"
 
-    # If we got till this point, then the line is not corrupt, but possibly incomplete.
+    # Check incompleteness
     score = 0
-    for i in range(len(pendingBrackets)):
-        # for each pending opening bracket, find corresponding closing bracket and compute the score
-        score = score*5 + incompletePoints[closingBrackets[openingBrackets.find( pendingBrackets.pop() )]]
-    return score, "incomplete" if score > 0 else "good"
+    while len(pendingBrackets) > 0:
+        score = score*5 + pointsIncom[pendingBrackets.pop()]
+    return score, "incomplete"
 
-outputs = [chunkChecker(line) for line in lines]
-answer1 = sum([k[0] for k in outputs if k[1] == "corrupted"])
+checkLines = [chunkChecker(line) for line in lines]
+answer1 = sum([k[0] for k in checkLines if k[1] == "corrupted"])
 print(f"Part 1: The sum of scores for corrupt lines is {answer1}.")
-incompleteScores = sorted([k[0] for k in outputs if k[1] == "incomplete"])
+
+incompleteScores = sorted([k[0] for k in checkLines if k[1] == "incomplete"])
 answer2 = incompleteScores[int((len(incompleteScores)-1)/2)]
 print(f"Part 2: The middle score for the incomplete lines is {answer2}.")
