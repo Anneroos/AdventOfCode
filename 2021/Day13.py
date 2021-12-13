@@ -13,7 +13,7 @@ for i,line in enumerate(instr):
     if i == 0:
         print(f"Part 1: There are {len(dots)} dots after 1 step.")
 
-# now let's print it
+# Now let's show the final image
 import numpy as np
 maxx = max([p[0] for p in dots])
 maxy = max([p[1] for p in dots])
@@ -21,5 +21,5 @@ matrix = np.zeros([maxy+1, maxx+1])
 for dot in dots:
     matrix[dot[1], dot[0]] = 1
 from matplotlib import pyplot as plt
-plt.imshow(matrix, interpolation='nearest')
+plt.imshow(matrix)
 plt.show()
