@@ -9,9 +9,14 @@ def computeTrajectory(vx,vy):
         maxy = max(maxy, y)
         if x1 <= x and x <= x2 and y1<= y and y <= y2:
             return True, maxy
+        if y < y1 or x > x2:
+            break
     return False, 0
 highest, total = 0, 0
 for vx in range(x2+1):
+    print(vx)
+    if vx*(vx+1)/2 < x1:
+        continue
     for vy in range(y1,abs(y1)+1):
         b, maxy = computeTrajectory(vx, vy)
 
