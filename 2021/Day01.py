@@ -1,4 +1,4 @@
-# Compact solution
+ # Compact solution
 import numpy as np
 with open("input1.txt","r") as f:
     n=np.array([int(i) for i in f.read().split('\n')])
