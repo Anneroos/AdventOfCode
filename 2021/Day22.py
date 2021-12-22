@@ -16,6 +16,7 @@ for step in steps:
                     lights[(x,y,z)]=0
 print(f"Part 1: {sum(lights.values())}.")
 
+# Part 2
 def checkOverlap(range1,range2):
     # first check if they overlap at all: the x,y,z ranges all should overlap  (otherwise there is a plane between them)
     overlap = True
