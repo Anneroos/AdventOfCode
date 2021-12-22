@@ -48,7 +48,7 @@ def checkOverlap(range1,range2):
             result.append(subresults)
     return overlap, result
 
-cubes = {} # This will be filled with cubes that are all mutually disjunct!
+cubes = {} # This will be filled with cubes that are all mutually disjoint!
 for step in steps:
     newcubes = {}
     onOrOff, ranges = step.split(" ")
@@ -65,7 +65,7 @@ for step in steps:
         for newcube in cubesToCheck:
             r,a = checkOverlap(oldcube,newcube)
             if r:
-                if onOrOff: # If on: To keep "cubes" completely disjunct, we keep the old cube in there,
+                if onOrOff: # If on: To keep "cubes" completely disjoint, we keep the old cube in there,
                     newcubes[oldcube] = 1
                     # but divide the newcube in small pieces that don't overlap with oldcube
                     # and continue with those pieces for the next oldcubes.
@@ -93,20 +93,12 @@ for step in steps:
     cubes=newcubes
 
 sum = 0
-sum1 = 0 # om deel 1 opnieuw te berekenen als sanity check
-
 for cube in set(cubes):
-    print(cube)
-    if cube[0][1] >=-50 and cube[0][0]<=50 and cube[1][1] >=-50 and cube[1][0]<=50 and cube[2][1] >=-50 and cube[2][0]<=50:
-        sum1 +=  (min(50,cube[0][1])-max(-50,cube[0][0]) + 1) * (min(50,cube[1][1])-max(-50,cube[1][0]) + 1) * (min(50,cube[2][1])-max(-50,cube[2][0]) + 1)
     sum += (cube[0][1]-cube[0][0] + 1) * (cube[1][1]-cube[1][0] + 1) * (cube[2][1]-cube[2][0] + 1)
-print(f"Part 1: {sum1}.")
+    # Sanity check for part 1
+    # if cube[0][1] >=-50 and cube[0][0]<=50 and cube[1][1] >=-50 and cube[1][0]<=50 and cube[2][1] >=-50 and cube[2][0]<=50:
+    #     sum1 +=  (min(50,cube[0][1])-max(-50,cube[0][0]) + 1) * (min(50,cube[1][1])-max(-50,cube[1][0]) + 1) * (min(50,cube[2][1])-max(-50,cube[2][0]) + 1)
+# print(f"Part 1: {sum1}.")
 print(f"Part 2: {sum}.")
 et=time.time()
-print("This took a whopping {et-st} seconds.")
-# IDEA
-# dict d1 with cubes that are currently on, all disjunct
-# for each new cube, make a new dictionairy d2  '
-# for each cube in old d1: if no overlap, add this old cube to d2
-# otherwise, compute overlap and add the correct subcubes of the old cube to d2
-# and for the new cube, divide it up in subcubes, and consider all these subcubes on the rest of the cubes
+print(f"This took a whopping {et-st} seconds.")
