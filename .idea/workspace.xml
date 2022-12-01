@@ -1,196 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/2021/Day20.py" line="37" mnemonic="9" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa12392-45a0-4be7-a0b0-5cea648cb6d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2016/Day1.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2016/input1.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/MijnEersteProject.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/Day01.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/input01.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2019/Day18.py" beforeDir="false" afterPath="$PROJECT_DIR$/2019/Day18.py" afterDir="false" />
     </list>
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="481210617">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="5" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.37" value="1" />
-          <entry key="project.open.time.4" value="2" />
-          <entry key="project.open.time.5" value="4" />
-          <entry key="project.open.time.8" value="2" />
-          <entry key="project.opened" value="11" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Day3puzzle1" value="1155" />
-          <entry key="Python Console" value="18" />
-          <entry key="csv" value="2" />
-          <entry key="py" value="77818" />
-          <entry key="txt" value="237" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="260" />
-          <entry key="Python" value="78970" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Day3puzzle1" value="3" />
-          <entry key="csv" value="2" />
-          <entry key="py" value="117" />
-          <entry key="pyi" value="1" />
-          <entry key="txt" value="70" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="73" />
-          <entry key="Python" value="119" />
-          <entry key="PythonStub" value="1" />
-        </counts>
-      </usages-collector>
-    </session>
-    <session id="92794266">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="8" />
-          <entry key="project.open.time.0" value="4" />
-          <entry key="project.open.time.1" value="3" />
-          <entry key="project.open.time.10" value="1" />
-          <entry key="project.open.time.14" value="1" />
-          <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.5" value="2" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="14" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="Day2" value="1" />
-          <entry key="input18" value="1" />
-          <entry key="py" value="120" />
-          <entry key="txt" value="55" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="PLAIN_TEXT" value="56" />
-          <entry key="Python" value="121" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="Day2" value="1137" />
-          <entry key="Python Console" value="65" />
-          <entry key="py" value="89619" />
-          <entry key="txt" value="198" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="PLAIN_TEXT" value="198" />
-          <entry key="Python" value="90821" />
-        </counts>
-      </usages-collector>
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2020/input24.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="11044">
-              <caret line="502" column="33" selection-end-line="526" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2020/Day11A.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2020/Day25.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="572">
-              <caret line="26" column="25" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2015/input18.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2178">
-              <caret line="99" column="100" selection-end-line="99" selection-end-column="100" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2015/Day18.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="440">
-              <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2021/Day1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="22">
-              <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="3" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2015/Day1.py">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2015/Day5.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="4" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2016/input1.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="708" lean-forward="true" selection-end-column="708" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/2016/Day1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -201,23 +24,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>output</find>
-      <find>repair</find>
-      <find>addinp</find>
-      <find>printsur</find>
-      <find>print(grid</find>
-      <find>addinput</find>
-      <find>totalpat</find>
-      <find>99</find>
-      <find>stop</find>
-      <find>plt</find>
-      <find>math</find>
-      <find>zeros</find>
-      <find>foundIt</find>
-      <find>255</find>
-      <find>packetQueue</find>
-      <find>at</find>
-      <find>bb</find>
       <find>np</find>
       <find>np.i</find>
       <find>chain</find>
@@ -226,11 +32,28 @@
       <find>powerse</find>
       <find>volgo</find>
       <find>42:</find>
-      <find>print</find>
       <find>corners[0]</find>
       <find>powerset</find>
       <find>class</find>
       <find>time</find>
+      <find>VK</find>
+      <find>points</find>
+      <find>keys</find>
+      <find>levelInfo</find>
+      <find>math</find>
+      <find>lines</find>
+      <find>check</find>
+      <find>print</find>
+      <find>printIma</find>
+      <find>scanner1</find>
+      <find>52295</find>
+      <find>drop</find>
+      <find>pop</find>
+      <find>&gt;&gt;</find>
+      <find>printstate</find>
+      <find>-1</find>
+      <find>inp</find>
+      <find>round</find>
     </findStrings>
     <replaceStrings>
       <replace>inputregister</replace>
@@ -242,72 +65,75 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/2020/Day14B.py" />
-        <option value="$PROJECT_DIR$/2020/Day15.py" />
-        <option value="$PROJECT_DIR$/2015/input7.txt" />
-        <option value="$PROJECT_DIR$/2015/Day7.py" />
-        <option value="$PROJECT_DIR$/2020/input16.txt" />
-        <option value="$PROJECT_DIR$/2020/Day16.py" />
-        <option value="$PROJECT_DIR$/2015/input9.txt" />
-        <option value="$PROJECT_DIR$/2015/Day11.py" />
-        <option value="$PROJECT_DIR$/2015/Day10.py" />
-        <option value="$PROJECT_DIR$/2015/Day9.py" />
-        <option value="$PROJECT_DIR$/2015/input8.txt" />
-        <option value="$PROJECT_DIR$/2015/Day8.py" />
-        <option value="$PROJECT_DIR$/2015/input12.txt" />
-        <option value="$PROJECT_DIR$/2015/Day12.py" />
-        <option value="$PROJECT_DIR$/2015/input13.txt" />
-        <option value="$PROJECT_DIR$/2015/Day13.py" />
-        <option value="$PROJECT_DIR$/2020/input17.txt" />
-        <option value="$PROJECT_DIR$/2020/Day17.py" />
-        <option value="$PROJECT_DIR$/2020/Day17B.py" />
-        <option value="$PROJECT_DIR$/2020/input18.txt" />
-        <option value="$PROJECT_DIR$/2020/Day18B.py" />
-        <option value="$PROJECT_DIR$/2020/Day18.py" />
-        <option value="$PROJECT_DIR$/2015/input14.txt" />
-        <option value="$PROJECT_DIR$/2015/Day14.py" />
-        <option value="$PROJECT_DIR$/2020/input19.txt" />
-        <option value="$PROJECT_DIR$/2020/Day19A.py" />
-        <option value="$PROJECT_DIR$/2015/input15.txt" />
-        <option value="$PROJECT_DIR$/2020/Day19B.py" />
-        <option value="$PROJECT_DIR$/2015/Day15.py" />
-        <option value="$PROJECT_DIR$/2015/input16.txt" />
-        <option value="$PROJECT_DIR$/2015/Day16.py" />
-        <option value="$PROJECT_DIR$/2020/input20.txt" />
-        <option value="$PROJECT_DIR$/2020/Day20.py" />
-        <option value="$PROJECT_DIR$/2020/input21.txt" />
-        <option value="$PROJECT_DIR$/2020/Day21.py" />
-        <option value="$PROJECT_DIR$/2015/Day17.py" />
-        <option value="$PROJECT_DIR$/2020/Day22.py" />
-        <option value="$PROJECT_DIR$/2020/Day22B.oy.py" />
-        <option value="$PROJECT_DIR$/2020/input22.txt" />
-        <option value="$PROJECT_DIR$/2020/Day22B.py" />
-        <option value="$PROJECT_DIR$/2020/Day23.py" />
-        <option value="$PROJECT_DIR$/2020/Day23B.py" />
-        <option value="$PROJECT_DIR$/2020/input24.txt" />
-        <option value="$PROJECT_DIR$/2020/Day24.py" />
-        <option value="$PROJECT_DIR$/2020/Day25.py" />
-        <option value="$PROJECT_DIR$/2015/input18.txt" />
-        <option value="$PROJECT_DIR$/2015/Day18.py" />
-        <option value="$PROJECT_DIR$/2021/input1.txt" />
-        <option value="$PROJECT_DIR$/2021/Day1.py" />
-        <option value="$PROJECT_DIR$/2016/Day1.py" />
-        <option value="$PROJECT_DIR$/2016/input1.txt" />
+        <option value="$PROJECT_DIR$/2021/input8.txt" />
+        <option value="$PROJECT_DIR$/2021/Day7.py" />
+        <option value="$PROJECT_DIR$/2021/Day8.py" />
+        <option value="$PROJECT_DIR$/2016/Day13.py" />
+        <option value="$PROJECT_DIR$/2016/input12.txt" />
+        <option value="$PROJECT_DIR$/2016/Day12.py" />
+        <option value="$PROJECT_DIR$/2016/Day16.py" />
+        <option value="$PROJECT_DIR$/2021/input9.txt" />
+        <option value="$PROJECT_DIR$/2016/input11.txt" />
+        <option value="$PROJECT_DIR$/2016/Day11.py" />
+        <option value="$PROJECT_DIR$/2021/Day9.py" />
+        <option value="$PROJECT_DIR$/2021/input10.txt" />
+        <option value="$PROJECT_DIR$/2021/Day10.py" />
+        <option value="$PROJECT_DIR$/2021/input11.txt" />
+        <option value="$PROJECT_DIR$/2021/Day11.py" />
+        <option value="$PROJECT_DIR$/2021/input12.txt" />
+        <option value="$PROJECT_DIR$/2021/Day12.py" />
+        <option value="$PROJECT_DIR$/2021/input13.txt" />
+        <option value="$PROJECT_DIR$/2021/Day13.py" />
+        <option value="$PROJECT_DIR$/2021/input14.txt" />
+        <option value="$PROJECT_DIR$/2021/Day14.py" />
+        <option value="$PROJECT_DIR$/2019/input18" />
+        <option value="$PROJECT_DIR$/2019/Day18.py" />
+        <option value="$PROJECT_DIR$/2021/input15.txt" />
+        <option value="$PROJECT_DIR$/2021/Day15.py" />
+        <option value="$PROJECT_DIR$/2017/input8.txt" />
+        <option value="$PROJECT_DIR$/2017/Day8.py" />
+        <option value="$PROJECT_DIR$/2021/input16.txt" />
+        <option value="$PROJECT_DIR$/2021/Day16.py" />
+        <option value="$PROJECT_DIR$/2017/input7.txt" />
+        <option value="$PROJECT_DIR$/2017/Day7.py" />
+        <option value="$PROJECT_DIR$/2017/input9.txt" />
+        <option value="$PROJECT_DIR$/2017/Day9.txt.py" />
+        <option value="$PROJECT_DIR$/2017/Day9.py" />
+        <option value="$PROJECT_DIR$/2021/Day17.py" />
+        <option value="$PROJECT_DIR$/2021/input18.txt" />
+        <option value="$PROJECT_DIR$/2021/Day18.py" />
+        <option value="$PROJECT_DIR$/2021/input19.txt" />
+        <option value="$PROJECT_DIR$/2021/Day19.py" />
+        <option value="$PROJECT_DIR$/2021/input20.txt" />
+        <option value="$PROJECT_DIR$/2021/Day20.py" />
+        <option value="$PROJECT_DIR$/2021/Day01.py" />
+        <option value="$PROJECT_DIR$/2021/Day21.py" />
+        <option value="$PROJECT_DIR$/2021/input22.txt" />
+        <option value="$PROJECT_DIR$/2021/Day22.py" />
+        <option value="$PROJECT_DIR$/2021/input23.txt" />
+        <option value="$PROJECT_DIR$/2021/Day23.py" />
+        <option value="$PROJECT_DIR$/2021/input24.txt" />
+        <option value="$PROJECT_DIR$/2021/Day24.py" />
+        <option value="$PROJECT_DIR$/2021/input25.txt" />
+        <option value="$PROJECT_DIR$/2021/Day25.py" />
       </list>
     </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="262" />
     <option name="width" value="1425" />
     <option name="height" value="1047" />
   </component>
+  <component name="ProjectId" id="2IItbFG6XRDUtEbVG4OFQLrSzvW" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -318,23 +144,18 @@
             <path>
               <item name="adventOfCode" type="b2602c69:ProjectViewProjectNode" />
               <item name="adventOfCode" type="462c0819:PsiDirectoryNode" />
-              <item name="2015" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adventOfCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adventOfCode" type="462c0819:PsiDirectoryNode" />
-              <item name="2016" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="adventOfCode" type="b2602c69:ProjectViewProjectNode" />
-              <item name="adventOfCode" type="462c0819:PsiDirectoryNode" />
               <item name="2021" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="SearchEverywhereHistoryKey" value="&#9;FILE&#9;file://C:/Users/Anneroos/PycharmProjects/adventOfCode/2019/Day11.py" />
@@ -349,32 +170,20 @@
       <recent name="C:\Users\Anneroos\PycharmProjects\MijnEersteProject" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Python.Day1 (1)">
-    <configuration name="Day1 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MijnEersteProject" />
+  <component name="RunManager" selected="Python.Day01">
+    <configuration name="Day01" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2016" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2016/Day1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day01.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -383,8 +192,8 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MijnEersteProject" />
+    <configuration name="Day22" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -395,7 +204,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021/Day1.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021/Day22.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -404,19 +213,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day18" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MijnEersteProject" />
+    <configuration name="Day23" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2015" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2015/Day18.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021/Day23.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -426,18 +235,18 @@
       <method v="2" />
     </configuration>
     <configuration name="Day24" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MijnEersteProject" />
+      <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2020/Day24.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021/Day24.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -447,18 +256,18 @@
       <method v="2" />
     </configuration>
     <configuration name="Day25" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="MijnEersteProject" />
+      <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2020" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2021" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2020/Day25.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2021/Day25.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -468,22 +277,23 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Day01" />
+      <item itemvalue="Python.Day22" />
+      <item itemvalue="Python.Day23" />
       <item itemvalue="Python.Day24" />
       <item itemvalue="Python.Day25" />
-      <item itemvalue="Python.Day18" />
-      <item itemvalue="Python.Day1" />
-      <item itemvalue="Python.Day1 (1)" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Day1 (1)" />
-        <item itemvalue="Python.Day1" />
-        <item itemvalue="Python.Day18" />
+        <item itemvalue="Python.Day01" />
         <item itemvalue="Python.Day25" />
         <item itemvalue="Python.Day24" />
+        <item itemvalue="Python.Day23" />
+        <item itemvalue="Python.Day22" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -510,12 +320,12 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15384616" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.15279241" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49920383" weight="0.32967034" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.5007962" side_tool="true" visible="true" weight="0.43770313" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49881798" weight="0.3289166" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.501182" side_tool="true" weight="0.51029253" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -529,12 +339,12 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
     <layout-to-restore>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15384616" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20527975" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.50105375" side_tool="true" weight="0.24702059" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49881798" weight="0.3289166" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.501182" side_tool="true" visible="true" weight="0.34372565" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -548,323 +358,324 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout-to-restore>
   </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
-  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/2015/Day11.py">
+    <entry file="file://$PROJECT_DIR$/2021/input8.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1078">
-          <caret line="49" column="66" selection-start-line="49" selection-start-column="66" selection-end-line="49" selection-end-column="66" />
+        <state relative-caret-position="4378">
+          <caret line="199" column="85" selection-start-line="199" selection-start-column="85" selection-end-line="199" selection-end-column="85" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day17.py" />
-    <entry file="file://$PROJECT_DIR$/2015/Day9.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="36" selection-start-line="36" selection-end-line="38" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/Day8.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="8" column="26" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/input12.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/Day12.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="506">
-          <caret line="25" column="26" selection-start-line="25" selection-start-column="26" selection-end-line="25" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/input13.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1210">
-          <caret line="55" column="64" selection-start-line="55" selection-start-column="64" selection-end-line="55" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/Day13.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1386">
-          <caret line="64" selection-start-line="64" selection-end-line="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/input17.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="8" selection-end-line="7" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day17B.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1034">
-          <caret line="47" column="21" selection-start-line="47" selection-start-column="21" selection-end-line="47" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day7B.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="770">
-          <caret line="35" column="53" selection-start-line="35" selection-start-column="53" selection-end-line="35" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/input18.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="550">
-          <caret line="25" column="67" selection-end-line="379" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day18B.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="655">
-          <caret line="36" column="75" selection-start-line="36" selection-end-line="36" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day18.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="634">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/input14.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="8" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/input19.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-418">
-          <caret line="95" column="3" selection-start-line="95" selection-end-line="95" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day19A.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="616">
-          <caret line="34" column="34" lean-forward="true" selection-start-line="34" selection-start-column="34" selection-end-line="34" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day19B.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="164">
-          <caret line="29" column="33" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/Day14.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="12" selection-start-column="12" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/Day15.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/input15.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="65" selection-start-line="3" selection-start-column="65" selection-end-line="3" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/input16.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="10978">
-          <caret line="499" column="45" selection-start-line="499" selection-start-column="45" selection-end-line="499" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/Day16.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="18" column="81" selection-start-line="18" selection-start-column="81" selection-end-line="18" selection-end-column="81" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day20.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4884">
-          <caret line="222" column="26" selection-start-line="222" selection-start-column="26" selection-end-line="222" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/input20.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="37730">
-          <caret line="1715" selection-start-line="1715" selection-end-line="1715" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/input21.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="924">
-          <caret line="42" column="374" selection-start-line="42" selection-start-column="374" selection-end-line="42" selection-end-column="374" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day21.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1254">
-          <caret line="57" column="43" selection-start-line="57" selection-start-column="43" selection-end-line="57" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Programmeren/Python/nogeentestje.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day14B.py">
+    <entry file="file://$PROJECT_DIR$/2016/Day12.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="22">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="41" />
+          <caret line="1" selection-start-line="1" selection-end-line="48" selection-end-column="55" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2015/Day17.py">
+    <entry file="file://$PROJECT_DIR$/2016/Day13.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="384">
-          <caret line="20" column="142" selection-start-line="20" selection-start-column="142" selection-end-line="20" selection-end-column="142" />
+        <state relative-caret-position="396">
+          <caret line="18" column="42" selection-start-line="18" selection-start-column="42" selection-end-line="18" selection-end-column="42" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day22.py" />
-    <entry file="file://$PROJECT_DIR$/2020/Day22B.oy.py" />
-    <entry file="file://$PROJECT_DIR$/2020/Day22A.py">
+    <entry file="file://$PROJECT_DIR$/2016/input12.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="10" column="29" selection-end-line="30" selection-end-column="34" />
+        <state>
+          <caret column="7" selection-start-column="7" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2020/input22.txt">
+    <entry file="file://$PROJECT_DIR$/2016/Day16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1716">
+          <caret line="78" column="26" selection-start-line="78" selection-start-column="26" selection-end-line="78" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input9.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2046">
+          <caret line="93" column="95" selection-start-line="93" selection-start-column="94" selection-end-line="93" selection-end-column="95" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2016/Day11.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1562">
+          <caret line="71" column="69" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day10.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="396">
+          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input10.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="429">
-          <caret line="52" column="1" selection-end-line="52" selection-end-column="1" />
+          <caret line="82" column="73" selection-start-line="82" selection-start-column="73" selection-end-line="82" selection-end-column="73" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day23.py" />
-    <entry file="file://$PROJECT_DIR$/2020/Day22B.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="418">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2018/adventOfCodeDay22.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3828">
-          <caret line="177" column="22" selection-start-line="174" selection-end-line="177" selection-end-column="22" />
-          <folding>
-            <element signature="e#119#137#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2017/Day7puzzle1.py">
+    <entry file="file://$PROJECT_DIR$/2021/input11.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
+          <caret line="9" column="10" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day23B.py">
+    <entry file="file://$PROJECT_DIR$/2021/Day11.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="66">
-          <caret line="3" column="34" selection-start-line="3" selection-start-column="34" selection-end-line="3" selection-end-column="34" />
+        <state relative-caret-position="220">
+          <caret line="31" column="14" lean-forward="true" selection-start-line="31" selection-start-column="14" selection-end-line="31" selection-end-column="14" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day24.py">
+    <entry file="file://$PROJECT_DIR$/2021/input12.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1958">
-          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        <state relative-caret-position="429">
+          <caret line="24" column="5" selection-end-line="24" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2020/input24.txt">
+    <entry file="file://$PROJECT_DIR$/2021/Day12.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="11044">
-          <caret line="502" column="33" selection-end-line="526" selection-end-column="14" />
+        <state relative-caret-position="161">
+          <caret line="63" column="29" selection-start-line="63" selection-start-column="29" selection-end-line="63" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day11A.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2020/Day25.py">
+    <entry file="file://$PROJECT_DIR$/2021/input5.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="572">
-          <caret line="26" column="25" selection-start-line="26" selection-start-column="19" selection-end-line="26" selection-end-column="25" />
+        <state relative-caret-position="359">
+          <caret line="499" column="16" selection-end-line="499" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2015/input18.txt">
+    <entry file="file://$PROJECT_DIR$/2021/Day13.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="3" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input13.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17776">
+          <caret line="808" column="14" selection-start-line="808" selection-start-column="14" selection-end-line="808" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input14.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day14.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2019/input18">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="341">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017/Day7.py" />
+    <entry file="file://$PROJECT_DIR$/2017/input7.txt" />
+    <entry file="file://$PROJECT_DIR$/2017/Day9.txt.py" />
+    <entry file="file://$PROJECT_DIR$/2019/Day18.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="176">
+          <caret line="8" selection-start-line="6" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input15.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="2178">
           <caret line="99" column="100" selection-end-line="99" selection-end-column="100" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2015/Day18.py">
+    <entry file="file://$PROJECT_DIR$/2021/Day15.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="20" column="26" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+        <state relative-caret-position="264">
+          <caret line="12" column="27" selection-start-line="12" selection-start-column="27" selection-end-line="12" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/2021/input1.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/Day5.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2015/Day1.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2021/Day1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="22">
-          <caret line="1" column="18" lean-forward="true" selection-start-line="1" selection-start-column="18" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2016/input1.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="708" lean-forward="true" selection-end-column="708" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2016/Day1.py">
+    <entry file="file://$PROJECT_DIR$/2017/Day8.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
-          <caret line="30" column="83" selection-start-line="30" selection-start-column="83" selection-end-line="30" selection-end-column="83" />
+          <caret line="18" column="91" selection-start-line="18" selection-start-column="91" selection-end-line="18" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017/input8.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20460">
+          <caret line="930" column="23" selection-end-line="999" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day16.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1320">
+          <caret line="61" column="75" selection-start-line="61" selection-start-column="75" selection-end-line="61" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input16.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1376" selection-start-column="1376" selection-end-column="1376" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017/input9.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="30841" selection-start-column="30841" selection-end-column="30841" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2017/Day9.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="550">
+          <caret line="25" column="32" selection-start-line="25" selection-start-column="32" selection-end-line="25" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day17.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="19" selection-start-line="13" selection-start-column="19" selection-end-line="13" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day4.py" />
+    <entry file="file://$PROJECT_DIR$/2021/Day8.py" />
+    <entry file="file://$PROJECT_DIR$/2021/Day9.py" />
+    <entry file="file://$PROJECT_DIR$/2021/Day01.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="1" selection-start-column="1" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input20.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1109">
+          <caret line="101" column="100" selection-start-line="101" selection-start-column="100" selection-end-line="101" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day18.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1100">
+          <caret line="222" selection-start-line="222" selection-end-line="222" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input18.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1760">
+          <caret line="80" column="21" selection-start-line="80" selection-start-column="21" selection-end-line="80" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input19.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22088">
+          <caret line="1004" column="12" selection-end-line="1004" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day19.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="13" column="27" selection-start-line="13" selection-start-column="27" selection-end-line="13" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day20.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="572">
+          <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day21.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input22.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="9218">
+          <caret line="419" column="52" selection-start-line="419" selection-start-column="52" selection-end-line="419" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day22.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1540">
+          <caret line="71" column="39" selection-start-line="71" selection-start-column="36" selection-end-line="71" selection-end-column="39" />
+          <folding>
+            <element signature="e#0#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input23.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="264">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day23.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3036">
+          <caret line="138" column="108" selection-start-line="138" selection-start-column="108" selection-end-line="138" selection-end-column="108" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input24.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day24.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7524">
+          <caret line="342" column="16" selection-start-line="341" selection-start-column="16" selection-end-line="342" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/input25.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2992">
+          <caret line="136" column="139" selection-end-line="136" selection-end-column="139" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2021/Day25.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="14" selection-start-line="7" selection-start-column="14" selection-end-line="7" selection-end-column="14" />
         </state>
       </provider>
     </entry>
