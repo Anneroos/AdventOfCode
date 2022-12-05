@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa12392-45a0-4be7-a0b0-5cea648cb6d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/Day05.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Day05.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/input05.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/input05.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/Day04.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Day04.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -169,7 +167,7 @@
       <recent name="C:\Users\Anneroos\PycharmProjects\MijnEersteProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Day05">
+  <component name="RunManager" selected="Python.Day04">
     <configuration name="Day02" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -284,8 +282,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Day05" />
         <item itemvalue="Python.Day04" />
+        <item itemvalue="Python.Day05" />
         <item itemvalue="Python.Day03" />
         <item itemvalue="Python.Day02" />
         <item itemvalue="Python.Day19" />
@@ -339,7 +337,21 @@
       <option name="project" value="LOCAL" />
       <updated>1670191213071</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Day 5: Stacking crates">
+      <created>1670224853551</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1670224853551</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Day 5: Stacking crates">
+      <created>1670224900713</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1670224900713</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
@@ -399,7 +411,8 @@
     <MESSAGE value="Day 3: intersection() and one-liners." />
     <MESSAGE value="Day 4: overlapping pairs" />
     <MESSAGE value="Day 3: Little clean-up" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 3: Little clean-up" />
+    <MESSAGE value="Day 5: Stacking crates" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 5: Stacking crates" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2021/input8.txt">
