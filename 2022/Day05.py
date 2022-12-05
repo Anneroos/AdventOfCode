@@ -23,7 +23,7 @@ for move in moves:
     for i in range(move["amount"]):
         crate = stacks1[move["stackFrom"]].pop(0)
         stacks1[move["stackTo"]].insert(0, crate)
-print(f"Day 4:\n1) The top crates are { ''.join([stack[0] for stack in stacks1])}.")
+print(f"Day 5:\n1) The top crates are { ''.join([stack[0] for stack in stacks1])}.")
 
 # --------------- part 2 -----------------
 stacks2 = deepcopy(stacks)
