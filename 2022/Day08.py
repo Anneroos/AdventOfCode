@@ -87,9 +87,9 @@ print(f"2) The highest possible scenic score is {maxScenicScore} at position {tr
 
 #   ----- PLOTTING PART 1 and PART 2 together -----
 for i in range(treeSpot[0]-directions[0], treeSpot[0]+directions[1]+1):
-    visible[i][treeSpot[1]] += 0.5
+    visible[i][treeSpot[1]] += 2
 for j in range(treeSpot[1]-directions[2], treeSpot[1]+directions[3]+1):
-    visible[treeSpot[0]][j] += 0.5
+    visible[treeSpot[0]][j] += 2
 visible[treeSpot[0]][treeSpot[1]] += 1
 plt.imshow(visible)
 plt.colorbar()
