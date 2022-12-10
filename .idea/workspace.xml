@@ -5,10 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa12392-45a0-4be7-a0b0-5cea648cb6d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2022/Day09.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/input09.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/Day10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/input10.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2022/Day08.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Day08.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -170,7 +169,7 @@
       <recent name="C:\Users\Anneroos\PycharmProjects\MijnEersteProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Day09">
+  <component name="RunManager" selected="Python.Day10">
     <configuration name="Day04" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,27 +183,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day04.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Day06" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="adventOfCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day06.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -276,20 +254,41 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Day10" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day10.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <list>
       <item itemvalue="Python.Day08" />
       <item itemvalue="Python.Day09" />
+      <item itemvalue="Python.Day10" />
       <item itemvalue="Python.Day07" />
       <item itemvalue="Python.Day04" />
-      <item itemvalue="Python.Day06" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Day09" />
+        <item itemvalue="Python.Day10" />
         <item itemvalue="Python.Day07" />
+        <item itemvalue="Python.Day09" />
         <item itemvalue="Python.Day08" />
         <item itemvalue="Python.Day04" />
-        <item itemvalue="Python.Day06" />
       </list>
     </recent_temporary>
   </component>
@@ -375,7 +374,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670489250941</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="Day 9: Classy ropes">
+      <created>1670574213489</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1670574213489</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView">
@@ -450,7 +456,8 @@
     <MESSAGE value="Day 4: Added alternative" />
     <MESSAGE value="Day 7: Directories" />
     <MESSAGE value="Day 8: Treehouses" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 8: Treehouses" />
+    <MESSAGE value="Day 9: Classy ropes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 9: Classy ropes" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2021/input8.txt">
