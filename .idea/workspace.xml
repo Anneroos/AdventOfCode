@@ -5,9 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa12392-45a0-4be7-a0b0-5cea648cb6d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2022/Day14.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/2022/Day15.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/input14.txt" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/2022/input15.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -411,7 +409,14 @@
       <option name="project" value="LOCAL" />
       <updated>1670942722996</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="Day 14: Pouring sand">
+      <created>1671108312131</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1671108312131</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="TodoView">
@@ -491,7 +496,8 @@
     <MESSAGE value="Day 11: Programming monkeys on my phone in the train" />
     <MESSAGE value="Day 12: Pathfinding on a hill" />
     <MESSAGE value="Day 13: sorting packets" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 13: sorting packets" />
+    <MESSAGE value="Day 14: Pouring sand" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 14: Pouring sand" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2021/input8.txt">
