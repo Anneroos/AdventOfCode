@@ -5,17 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa12392-45a0-4be7-a0b0-5cea648cb6d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2022/Day16.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/Day17.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/Day18.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/Day19.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/Day20.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/input16.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/input17.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/input18.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/input19.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/input20.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/Day18.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Day18.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,7 +167,7 @@
       <recent name="C:\Users\Anneroos\PycharmProjects\MijnEersteProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Day16">
+  <component name="RunManager" selected="Python.Day18">
     <configuration name="Day16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -292,10 +282,10 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Day18" />
         <item itemvalue="Python.Day16" />
         <item itemvalue="Python.Day20" />
         <item itemvalue="Python.Day19" />
-        <item itemvalue="Python.Day18" />
         <item itemvalue="Python.Day17" />
       </list>
     </recent_temporary>
@@ -431,7 +421,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671109142267</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="Day 16: Elephant's cheaty vulcano valves">
+      <created>1671548983391</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1671548983392</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Day 17: Periodic tetris">
+      <created>1671549160385</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1671549160385</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TodoView">
@@ -513,7 +517,9 @@
     <MESSAGE value="Day 13: sorting packets" />
     <MESSAGE value="Day 14: Pouring sand" />
     <MESSAGE value="Day 15: Sensors and beacons" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 15: Sensors and beacons" />
+    <MESSAGE value="Day 16: Elephant's cheaty vulcano valves" />
+    <MESSAGE value="Day 17: Periodic tetris" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 17: Periodic tetris" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2021/input8.txt">

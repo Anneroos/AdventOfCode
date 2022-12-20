@@ -15,9 +15,10 @@ def computeSurface(d):
             if n in d:
                 s+=1
     return len(d)*6-s
-print(computeSurface(cubesDict))
-# print(len(cubes)*6-s)
 
+print(f"Day 18:\n1) The total surface is {computeSurface(cubesDict)}.")
+
+# Lets make a big cube around the lava blob
 minx = min([k[0] for k in cubesDict])-1
 maxx = max([k[0] for k in cubesDict])+1
 miny = min([k[1] for k in cubesDict])-1
@@ -35,4 +36,4 @@ while len(points) > 0:
         if n not in cubesDict and n not in outside and n not in points:
             if minx<=n[0]<=maxx and miny<=n[1]<=maxy and minz<=n[2]<=maxz:
                 points.append(n)
-print(computeSurface(outside) - 2*((maxx-minx+1)*(maxy-miny+1) + (maxy-miny+1)*(maxz-minz+1) + (maxz-minz+1)*(maxy-miny+1)))
+print(f"2) The outside surface is {computeSurface(outside) - 2*((maxx-minx+1)*(maxy-miny+1) + (maxy-miny+1)*(maxz-minz+1) + (maxz-minz+1)*(maxy-miny+1))}.")
