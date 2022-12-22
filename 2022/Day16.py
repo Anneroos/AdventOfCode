@@ -72,7 +72,7 @@ allvalves = newallvalves
 for vname in allvalves:
     v = allvalves[vname]
     v.cleanUpAllvalves(allvalves)
-    # print( f"My name is {v.name} my flowrate is {v.flowrate}, my neighbors are {v.otherValvesNames} and my distances to others are: {v.distances}.")
+    print( f"My name is {v.name} my flowrate is {v.flowrate}, my neighbors are {v.otherValvesNames} and my distances to others are: {v.distances}.")
 
 currentValve = allvalves["AA"]
 
@@ -107,12 +107,11 @@ def findBestMove1(startvalvename, valvesopened, minutesLeft):
 score , moves = findBestMove1("AA", ("AA",), 30)
 print(f"Day 16:\n1) The most pressure that I can release is {score}, by visiting these valves with non-zero flowrates: {moves}.")
 
-## part 2!
-
+## part 2! SLow and cheaty, but it gets the job done...
 @lru_cache(maxsize=1200)
 def findBestMove2(destdist1, destdist2, valvesopened, minutesLeftTotal): #
     # As a test I changed the valves with the lowest flow rates so that they had 0 flowrate and computed the best route
-    # Now I use this route to make sure that during the first steps, we follow this path... Cheaty?
+    # Now I use this route to make sure that during the first steps, we follow this path... Cheaty? But it somehow works...
     bestPlaces = ["CO","EU", "IJ", "QN",  "GJ", "NA", "SE", "AE",  "MN", "KF", "CS" ]
     bestPlaces = bestPlaces[:4]
     dest1 = destdist1[0]
