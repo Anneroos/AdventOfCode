@@ -5,7 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa12392-45a0-4be7-a0b0-5cea648cb6d0" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/2022/Day18.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Day18.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/Day21.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/Day22.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/day16tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/day21cheat.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/input21.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/input22.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/Day16.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Day16.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/Day19.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Day19.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2022/input19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/input19.txt" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -154,11 +163,12 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Anneroos/PycharmProjects/adventOfCode&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "last_opened_file_path": "C:/Users/Anneroos/PycharmProjects/adventOfCode",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Anneroos\Documents\Splunk" />
@@ -167,7 +177,7 @@
       <recent name="C:\Users\Anneroos\PycharmProjects\MijnEersteProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Day18">
+  <component name="RunManager" selected="Python.Day22">
     <configuration name="Day16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -189,7 +199,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day17" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Day21" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,7 +211,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day17.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day21.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -210,7 +220,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day18" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Day22" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,7 +232,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day18.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day22.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -231,19 +241,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day19" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day16tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="" />
+      <option name="SDK_HOME" value="C:\Users\Anneroos\AppData\Local\Programs\Python\Python37\python.exe" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022" />
-      <option name="IS_MODULE_SDK" value="true" />
+      <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day19.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/day16tests.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -252,7 +262,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day20" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="day21cheat" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,7 +274,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day20.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/day21cheat.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -274,19 +284,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.Day19" />
-      <item itemvalue="Python.Day20" />
-      <item itemvalue="Python.Day17" />
-      <item itemvalue="Python.Day18" />
+      <item itemvalue="Python.Day22" />
+      <item itemvalue="Python.Day21" />
+      <item itemvalue="Python.day16tests" />
+      <item itemvalue="Python.day21cheat" />
       <item itemvalue="Python.Day16" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Day18" />
+        <item itemvalue="Python.Day22" />
+        <item itemvalue="Python.day16tests" />
         <item itemvalue="Python.Day16" />
-        <item itemvalue="Python.Day20" />
-        <item itemvalue="Python.Day19" />
-        <item itemvalue="Python.Day17" />
+        <item itemvalue="Python.Day21" />
+        <item itemvalue="Python.day21cheat" />
       </list>
     </recent_temporary>
   </component>
@@ -435,7 +445,14 @@
       <option name="project" value="LOCAL" />
       <updated>1671549160385</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Day 18: Surface of lava">
+      <created>1671554379277</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1671554379277</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TodoView">
@@ -519,7 +536,8 @@
     <MESSAGE value="Day 15: Sensors and beacons" />
     <MESSAGE value="Day 16: Elephant's cheaty vulcano valves" />
     <MESSAGE value="Day 17: Periodic tetris" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 17: Periodic tetris" />
+    <MESSAGE value="Day 18: Surface of lava" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 18: Surface of lava" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2021/input8.txt">
