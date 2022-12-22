@@ -65,6 +65,6 @@ def mixing(inputnumbers, rounds, withDecryptionKey):
     return a+b+c
 #
 answer1 = mixing(originalnumbers,1,False)
-print(answer1)
+print(f"Day 20:\n1) The sum of the three numbers that form the grove coordinates is {answer1}.")
 answer2 = mixing(originalnumbers,10,True)
-print(answer2)
+print(f"2) After applying the decryption key and mixing ten times, the sum of the three numbers that form the grove coordinates is {answer2}.")
