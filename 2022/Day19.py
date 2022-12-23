@@ -1,4 +1,7 @@
 import re
+import math
+import copy
+
 with open("input19.txt") as f:
     lines = f.read().split("\n")
 Blueprints = []
@@ -22,94 +25,120 @@ for line in lines:
                  }
     Blueprints.append(blueprint)
 
-paths = [["orebot"], ["claybot"], ["obsbot"], ["geobot"]]
 
 class robotState():
     def __init__(self, blueprint, minutes):
         self.bp = blueprint
-        self.minutes = 0
+        self.minutes = minutes #?
         self.resources = {"ore": 0, "clay": 0, "obsidian":0, "geode":0}
         self.robots = {"ore": 1, "clay": 0, "obsidian": 0, "geode": 0}
+        self.maxNeeded = {}
+        for res in ["ore", "clay", "obsidian" ]:
+            self.maxNeeded[res] = max([self.bp[rob][res] for rob in self.robots])
+        print(self.maxNeeded)
+        self.history = []
+        # self.listOfRobots = listOfRobots
+    def computeNextSteps(self):
+        bestPossibleScore = self.resources["geode"] + self.minutes*self.robots["geode"] + self.minutes*(self.minutes-1)/2
+        if bestPossibleScore < bestGeodeScore:
+            self.finishTime()
+            geodeScore = self.resources["geode"]
+            # finishedRobots.append(self)
+            return geodeScore
+        else:
+            copiesMade = 0
+            for robottype in self.robots:
+                if robottype == "geode" or not self.resources[robottype] + self.minutes*self.robots[robottype] >= self.minutes * self.maxNeeded[robottype]:
+                    T = self.computeTimeToWaitForNextRobot(robottype)
+                    if T < self.minutes:
+                        self.makeCopy(T+1, robottype)
+                        copiesMade += 1
+            if copiesMade == 0:
+                self.finishTime()
+                geodeScore = self.resources["geode"]
+                # finishedRobots.append(self)
+                return geodeScore
+            else:
+                return -1
 
-    def computePathForNextRobot(self, robottype):
-        # self.bp
-        pass
+    def finishTime(self):
+        for res in self.robots:
+            self.resources[res] += self.minutes*self.robots[res]
+        self.minutes = 0
+    def computeTimeToWaitForNextRobot(self, robottype):
+        needs = self.bp[robottype]
+        minTime = -1
 
+        for res in needs:
+            if needs[res] >0:
+                if self.robots[res] == 0:
+                    minTime = self.minutes
+                else:
+                    T = math.ceil((needs[res] - self.resources[res] )/ self.robots[res])
+                    if T >= minTime:
+                        minTime = T
+                # print(f"robottype {robottype}, resource {res},mintime{minTime}, T {T}. self.robots[res] {self.robots[res]}, needs[res] {needs[res]},self.resources[res] {self.resources[res]}")
+        # print(f"Final mintime {minTime}")
+        minTime = self.minutes if minTime == -1 else minTime #max(1, minTime)
+        return minTime
 
-
-robotState(Blueprints[0],4)
-
-
-
-
-# def computeMaxGeodes(bp, minutes, robots, resources):
-#     # Note that we can do a bit better: For any resource R that's not geode:
-#     # if you already have X robots creating resource R, a current stock of Y for that resource,
-#     # T minutes left, and no robot requires more than Z of resource R to build, and X * T+Y >= T * Z,
-#     # then you never need to build another robot mining R anymore.
-#     Z = [max(bp[0][0],bp[1][0],bp[2][0], bp[3][0]), max(bp[0][1],bp[1][1],bp[2][1], bp[3][1]), max(bp[0][2],bp[1][2],bp[2][2], bp[3][2])]
-#     bestgeodes = 0
+    def makeCopy(self, T, robottype):
+        newRobotState = copy.deepcopy(self)
+        # Get new resources from the robots
+        for res in newRobotState.robots:
+            newRobotState.resources[res] += T*newRobotState.robots[res]
+        # Add a new robot
+        newRobotState.robots[robottype] += 1
+        # Pay for the new robot
+        # print("Paying! old resources, after adding from robots", newRobotState.resources)
+        for res in self.bp[robottype]:
+            newRobotState.resources[res] -= newRobotState.bp[robottype][res]
+        # print( "after paying", newRobotState.resources)
+        newRobotState.minutes -= T
+        newRobotState.history.append([newRobotState.minutes, robottype, T, copy.deepcopy(newRobotState.robots), copy.deepcopy(newRobotState.resources)])
+        # print("minutes left for new robot", newRobotState.minutes)
+        robotList.append(newRobotState)
 #
-#     path = ()
-#     states = {(robots, resources, path ):1}
-#     for minute in range(minutes):
-#         print(f"Minute { minute}")
-#         newstates = {}
-#         for state in states:
-#             # print(state)
-#             robos = state[0]
-#             reses = state[1]
-#             path = state[2]
-#             newResources = (robos[0] + reses[0], robos[1] + reses[1], robos[2] + reses[2], robos[3]+ reses[3])
-#
-#             maxrobots = []
-#             X = [robos[0], robos[1], robos[2]]
-#             T = minutes - minute - 1
-#             Y = [resources[0], resources[1], resources[2]]
-#             geodes = resources[3]
-#             if geodes > bestgeodes:
-#                 bestgeodes = geodes
-#             if geodes + T*(T+1)/2 <= bestgeodes:
-#                 pass # stop this path
-#             else:
-#                 for roboidx in range(len(robos)):
-#                     # print(roboidx, [X[roboidx] * T + Y[roboidx] , T * Z[roboidx]] if roboidx !=3 else 0)
-#                     if roboidx ==3 or X[roboidx] * T + Y[roboidx] < T * Z[roboidx]:
-#                         costs =  bp[roboidx]
-#                         maxrobot = min([reses[residx]//costs[residx] for residx in range(3) if costs[residx] != 0])
-#                         maxrobots.append(1 if maxrobot >0 else 0)
-#                         if maxrobot >= 1:
-#                             newstate = ((robos[0] + (1 if roboidx==0 else 0), robos[1] + (1 if roboidx==1 else 0), robos[2] + (1 if roboidx==2 else 0), robos[3] + (1 if roboidx==3 else 0)),
-#                                         (newResources[0] - costs[0], newResources[1] - costs[1], newResources[2] - costs[2], newResources[3]),
-#                                         path + (roboidx,))
-#
-#                             newstates[newstate] = 1
-#                 # if no new robots
-#                 if sum(maxrobots) != 3:
-#                     newstate = (robos, newResources, path + (-1,))
-#                     newstates[newstate] = 1
-#
-#         states = newstates
-#         print(bestgeodes)
-#         # print( 'ore? ', max([s[1][0] for s in states]), 'clay? ', max([s[1][1] for s in states]),'obsidians? ', max([s[1][2] for s in states]), 'geodes? ', max([s[1][3] for s in states]))
-#
-#     return sorted([k for k in states.keys()], key=lambda x: x[1][3]*100 + x[0][3]*10 +  x[1][2] + 0.1*x[1][2] + x[1][1]*0.01 +  + x[0][1]*0.001 + x[1][0]*0.0001 + x[0][0]*0.00001, reverse=True)[0]
-#
-#
-#
-# initialrobots = (1,0,0,0) #{"orerobot":1, "clayrobot": 0, "obsidianrobot": 0, "geoderobot":0}
-# itinitalresources = (0,0,0,0)#{"ore": 0, "clay":0, "obsidian":0, "geode":0}
-#
-# for blueprint in Blueprints[:1]:
-#     geodes = computeMaxGeodes(blueprint, 24 , initialrobots, itinitalresources)
-#     print(geodes)
-
-# Each ore robot costs 3 ore.
-# Each clay robot costs 4 ore.
-# Each obsidian robot costs 4 ore and 16 clay.
-# Each geode robot costs 3 ore and 15 *(4 ore and 16 *(4 ore)).
+# # Part 1
+# qualityLevels = []
+# for bp in Blueprints:
+#     print("Blueprint:", bp)
+#     r = robotState(bp,24)
+#     robotList = [r]
+#     bestGeodeScore = 0
+#     bestPath = None
+#     finishedRobots = []
+#     while len(robotList) > 0:
+#         rob = robotList.pop()
+#         geodeScore = rob.computeNextSteps()
+#         if geodeScore >= bestGeodeScore:
+#             bestGeodeScore = geodeScore
+#             bestPath = rob.history
+#     print(f"QUality level = {bp['name'] * bestGeodeScore}, Best Geode score for this blueprint {bp['name']} is {bestGeodeScore}")
+#     qualityLevels.append(bp["name"] * bestGeodeScore)
+# print(qualityLevels)
+# print(sum(qualityLevels))
 
 
+# Part 2
+geodeScores = []
+for bp in Blueprints[:3]:
+    print("Blueprint:", bp)
+    r = robotState(bp,32)
+    robotList = [r]
+    bestGeodeScore = 0
+    bestPath = None
+    finishedRobots = []
+    while len(robotList) > 0:
+        rob = robotList.pop()
+        geodeScore = rob.computeNextSteps()
+        if geodeScore >= bestGeodeScore:
+            print("new highscore!", geodeScore)
+            bestGeodeScore = geodeScore
+            bestPath = rob.history
+    print(f"Quality level = {bp['name'] * bestGeodeScore}, Best Geode score for this blueprint {bp['name']} is {bestGeodeScore}")
+    geodeScores.append(bp["name"] * bestGeodeScore)
 
-# What robot to build next?
-# Based on decisions i nstead of minutes, net als dag 16 :) Rewrite!
+print(geodeScores)
+print(math.prod(geodeScores))
+# 12240 too high!
