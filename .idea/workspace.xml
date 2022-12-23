@@ -4,8 +4,10 @@
     <bookmark url="file://$PROJECT_DIR$/2021/Day20.py" line="37" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa12392-45a0-4be7-a0b0-5cea648cb6d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2022/day16tests.py" afterDir="false" />
+    <list default="true" id="3fa12392-45a0-4be7-a0b0-5cea648cb6d0" name="Default Changelist" comment="Day 20: Grove Positioning System">
+      <change afterPath="$PROJECT_DIR$/2022/Day23.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2022/input23.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/Day19.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Day19.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/input19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/input19.txt" afterDir="false" />
     </list>
@@ -170,7 +172,7 @@
       <recent name="C:\Users\Anneroos\PycharmProjects\MijnEersteProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Day20">
+  <component name="RunManager" selected="Python.Day23">
     <configuration name="Day16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -184,6 +186,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day16.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Day19" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="adventOfCode" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day19.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -234,7 +257,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Day22" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Day23" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -246,28 +269,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day22.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="day16tests" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="adventOfCode" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="C:\Users\Anneroos\AppData\Local\Programs\Python\Python37\python.exe" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2022" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/day16tests.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2022/Day23.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -278,18 +280,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.Day20" />
-      <item itemvalue="Python.Day22" />
+      <item itemvalue="Python.Day23" />
+      <item itemvalue="Python.Day19" />
       <item itemvalue="Python.Day21" />
-      <item itemvalue="Python.day16tests" />
       <item itemvalue="Python.Day16" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Day23" />
+        <item itemvalue="Python.Day19" />
         <item itemvalue="Python.Day20" />
         <item itemvalue="Python.Day16" />
         <item itemvalue="Python.Day21" />
-        <item itemvalue="Python.Day22" />
-        <item itemvalue="Python.day16tests" />
       </list>
     </recent_temporary>
   </component>
@@ -466,7 +468,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671713420064</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Day 20: Grove Positioning System">
+      <created>1671713651778</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1671713651778</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Day 19: Not Enough Minerals">
+      <created>1671713696471</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1671713696471</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TodoView">
@@ -554,7 +570,9 @@
     <MESSAGE value="Day 22: Cubic maze" />
     <MESSAGE value="Day 19: Yelling monkeys" />
     <MESSAGE value="Day 16: Valves" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 16: Valves" />
+    <MESSAGE value="Day 20: Grove Positioning System" />
+    <MESSAGE value="Day 19: Not Enough Minerals" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 19: Not Enough Minerals" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2021/input8.txt">
