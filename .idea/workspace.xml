@@ -4,9 +4,7 @@
     <bookmark url="file://$PROJECT_DIR$/2021/Day20.py" line="37" mnemonic="9" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3fa12392-45a0-4be7-a0b0-5cea648cb6d0" name="Default Changelist" comment="Day 20: Grove Positioning System">
-      <change afterPath="$PROJECT_DIR$/2022/Day23.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2022/input23.txt" afterDir="false" />
+    <list default="true" id="3fa12392-45a0-4be7-a0b0-5cea648cb6d0" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/Day19.py" beforeDir="false" afterPath="$PROJECT_DIR$/2022/Day19.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/2022/input19.txt" beforeDir="false" afterPath="$PROJECT_DIR$/2022/input19.txt" afterDir="false" />
@@ -172,7 +170,7 @@
       <recent name="C:\Users\Anneroos\PycharmProjects\MijnEersteProject" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Day23">
+  <component name="RunManager" selected="Python.Day19">
     <configuration name="Day16" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="adventOfCode" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -287,8 +285,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Day23" />
         <item itemvalue="Python.Day19" />
+        <item itemvalue="Python.Day23" />
         <item itemvalue="Python.Day20" />
         <item itemvalue="Python.Day16" />
         <item itemvalue="Python.Day21" />
@@ -482,7 +480,21 @@
       <option name="project" value="LOCAL" />
       <updated>1671713696471</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="Day 23: Unstable Diffusion - Moving elves around">
+      <created>1671784249242</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1671784249242</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Day 19: Finally made a efficient robot factory">
+      <created>1671784303907</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1671784303907</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="TodoView">
@@ -548,7 +560,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Day 1! :)" />
     <MESSAGE value="Day 2!" />
     <MESSAGE value="Day 3: intersection() and one-liners." />
     <MESSAGE value="Day 4: overlapping pairs" />
@@ -572,7 +583,9 @@
     <MESSAGE value="Day 16: Valves" />
     <MESSAGE value="Day 20: Grove Positioning System" />
     <MESSAGE value="Day 19: Not Enough Minerals" />
-    <option name="LAST_COMMIT_MESSAGE" value="Day 19: Not Enough Minerals" />
+    <MESSAGE value="Day 23: Unstable Diffusion - Moving elves around" />
+    <MESSAGE value="Day 19: Finally made a efficient robot factory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Day 19: Finally made a efficient robot factory" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/2021/input8.txt">
