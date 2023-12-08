@@ -13,8 +13,8 @@ for startNode in startNodes:
     node = startNode
     endNodes = {}
     history = defaultdict(list)
-    while dirIdx not in history[node]:
-        history[node].append(dirIdx)
+    while (dirIdx % len(directions)) not in history[node]:
+        history[node].append(dirIdx % len(directions))
         node = graph[node][directions[dirIdx % len(directions)]]
         dirIdx += 1
         if (dirIdx % len(directions)) in history[node]:
