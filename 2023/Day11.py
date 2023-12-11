@@ -26,3 +26,38 @@ myEmptyColumns = [col for col in range(len(lines[0])) if col not in [g[1] for g 
 
 print(f"Day 11:\n1) With a cosmic expansion of 2, the sum of the shortest path between every pair of galaxies is {computeTotalGalaxyDistances(myGalaxies, myEmptyLines, myEmptyColumns, 2)}.")
 print(f"2) With a cosmic expansion of 1000000, the sum of the shortest path between every pair of galaxies is {computeTotalGalaxyDistances(myGalaxies, myEmptyLines, myEmptyColumns, 1000000)}.")
+
+
+# ------------ End of solution, now some fun plotting shenanigans! ----------------- #
+import matplotlib.pyplot as plt
+import matplotlib as mpl
+
+matrix = []
+for lineIdx in range(len(lines)):
+    newline = []
+    for column in range(len(lines[lineIdx])):
+        if (lineIdx, column) in myGalaxies:
+            newline.append(2)
+        elif lineIdx in myEmptyLines or column in myEmptyColumns:
+            newline.append(.4)
+        else:
+            newline.append(0)
+    matrix.append(newline)
+
+print("Now there will be a popup with a colorful matrix!")
+# To remove borders and axes from the picture
+def full_frame(width=None, height=None):
+    mpl.rcParams['savefig.pad_inches'] = 0
+    figsize = None if width is None else (width, height)
+    fig = plt.figure(figsize=figsize)
+    ax = plt.axes([0, 0, 1, 1], frameon=False)
+    ax.get_xaxis().set_visible(False)
+    ax.get_yaxis().set_visible(False)
+    plt.autoscale(tight=True)
+full_frame()
+
+fig = plt.imshow(matrix)
+fig.set_cmap('cubehelix')
+fig.axes.get_xaxis().set_visible(False)
+fig.axes.get_yaxis().set_visible(False)
+plt.show()
