@@ -22,3 +22,4 @@ for key in keys:
             possibilities += 1
 
 print(possibilities)
+
