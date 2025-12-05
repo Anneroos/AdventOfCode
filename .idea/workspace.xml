@@ -5,18 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3fa12392-45a0-4be7-a0b0-5cea648cb6d0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/2025/Day01.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/Day02.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/Day03.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/Day04.txt.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/input01.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/input02.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/input03.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/2025/input04.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project Euler/pe29.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Project Euler/pe51.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025/Day05.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2025/input05.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/2024/Day25.py" beforeDir="false" afterPath="$PROJECT_DIR$/2024/Day25.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
