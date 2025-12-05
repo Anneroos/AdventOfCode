@@ -1,4 +1,4 @@
-with open("input01.txt") as f:
+with open("2025/input01.txt") as f:
     lines = f.read().split("\n")
 
 value = 50
@@ -17,4 +17,5 @@ for line in lines:
     if value % 100 == 0:
         timesZero += 1
 
-print(timesZero, timesZero2)
+print(f"Day 1:\n  1) {timesZero}")
+print(f"  2){timesZero2}")

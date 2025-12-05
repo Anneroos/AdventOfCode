@@ -1,30 +1,4 @@
-# with open("input03.txt") as f:
-#     banks = f.read().split("\n")
-#
-# totaljoltage = 0
-# for b in banks:
-#     print(b)
-#
-#     a = [(i,int(b[i])) for i in range(len(b) - 1)]
-#     print(a)
-#     a.sort(key=lambda x: (-x[1], x[0]))
-#     print(a)
-#     firstdigit = a[0][1]
-#     firstloc = a[0][0]
-#     print(f"first digit {firstdigit}, first loc{firstloc}")
-#     c = [(i, int(b[i])) for i in range(firstloc + 1,len(b))]
-#     print(c)
-#     c.sort(key=lambda x: (-x[1], x[0]))
-#
-#     seconddigit = c[0][1]
-#     print(str(firstdigit) + str(seconddigit))
-#     joltage = 10*firstdigit + seconddigit
-#     totaljoltage += joltage
-# print(totaljoltage)
-
-
-
-with open("input03.txt") as f:
+with open("2025/input03.txt") as f:
     banks = f.read().split("\n")
 
 def findJoltage(banks, nr_of_batteries_per_bank):
@@ -46,5 +20,5 @@ def findJoltage(banks, nr_of_batteries_per_bank):
 
         totaljoltage += int(joltage)
     return totaljoltage
-print(findJoltage(banks,2))
-print(findJoltage(banks,12))
+print(f"Day 3:\n  1) {findJoltage(banks,2)}")
+print(f"  2) {findJoltage(banks,12)}")

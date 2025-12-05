@@ -1,5 +1,5 @@
 import math
-with open("input02.txt") as f:
+with open("2025/input02.txt") as f:
     ranges = [[int(t) for t in r.split("-")] for r in f.read().split(",")]
 max_range = max([r[1] for r in ranges])
 length_max_range = len(str(max_range))
@@ -21,5 +21,5 @@ for pattern in range(1,10**max_pattern_length):
                 invalid_ids_1.append(number)
             invalid_ids_2.append(number)
 
-print(sum(set(invalid_ids_1)))
-print(sum(set(invalid_ids_2)))
+print(f"Day 2\n  1) {sum(set(invalid_ids_1))}")
+print(f"  2) {sum(set(invalid_ids_2))}")
