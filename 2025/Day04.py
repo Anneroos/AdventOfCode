@@ -22,7 +22,7 @@
 
 
 
-with open("input04.txt") as f:
+with open("2025/input04.txt") as f:
     grid = f.read().split("\n")
 
 def removeAccessible(grid):
