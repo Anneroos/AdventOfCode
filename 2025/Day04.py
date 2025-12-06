@@ -16,7 +16,7 @@ for rowIdx in range(height):
             if rolls_around < 4:
                 accessible += 1
                 
-print(f"Day 5:\n  1) {accessible}")
+print(f"Day 4:\n  1) {accessible}")
 
 
 with open("2025/input04.txt") as f:

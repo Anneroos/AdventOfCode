@@ -18,4 +18,4 @@ for line in lines:
         timesZero += 1
 
 print(f"Day 1:\n  1) {timesZero}")
-print(f"  2){timesZero2}")
+print(f"  2) {timesZero2}")

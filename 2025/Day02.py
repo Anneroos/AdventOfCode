@@ -21,5 +21,5 @@ for pattern in range(1,10**max_pattern_length):
                 invalid_ids_1.append(number)
             invalid_ids_2.append(number)
 
-print(f"Day 2\n  1) {sum(set(invalid_ids_1))}")
+print(f"Day 2:\n  1) {sum(set(invalid_ids_1))}")
 print(f"  2) {sum(set(invalid_ids_2))}")
